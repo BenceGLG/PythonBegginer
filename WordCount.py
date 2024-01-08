@@ -14,7 +14,7 @@ layout = [
 [sg.Button('Szavak megszámolása'), sg.Exit('Bezárás')]
 ]
 
-window = sg.Window('Szavak számolója' , layout)
+window = sg.Window('Szószámláló' , layout)
 
 while True:
     event, values = window.read()
